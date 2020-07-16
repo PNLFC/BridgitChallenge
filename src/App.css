@@ -1,0 +1,23 @@
+.app-header {
+  height: 70px;
+  background-color: #0076ff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  color: #FFF;
+}
+
+.app-header img {
+  height: 40px;
+  margin-left: 16px;
+  color: mistyrose;
+}
+
+.app-header-title {
+  margin-left: 16px;
+  font-size: 1.2em;
+}
+
+.app-content {
+  margin: 16px;
+}
