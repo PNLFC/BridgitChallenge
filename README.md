@@ -2,7 +2,7 @@
 
 ## Running the app
 
-1. Fork the repository if you have a GitHub account. Please do not push changes to this repository.
+1. Fork the repository if you have a GitHub account.
 
 2. Clone the repository to your dev environment.
 
@@ -23,14 +23,14 @@ yarn start
 Implement a react application that allows users to manage a list of categorized items. The application should have the following features:
 
 1. Allow users to create item entries by providing an item name, a category to which the item belongs and a price. Make sure to validate that the value provided for the price is an actual dollar value.
-2. Allow users to view the list of items in a tabular manner.
+2. Allow users to view the items in a list.
 3. Allow users to remove items from the list.
 3. Allow users to filter the list of items displayed by category.
 4. Allow users to sort the list of items by name, category and price.
 
 Note that these requirements are in order of priority. We think the challenge should not take more than four hours to complete so don't spend too much time on it.
 
-## Avaliable tools
+## Available tools
 
 We've added `react-redux`, `Redux Devtools` and `Material UI` as part of this template for you to use. Feel free to use them if they make things easier for you.
 
