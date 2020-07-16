@@ -2,7 +2,7 @@
 
 ## Running the app
 
-1. Fork the repository into your own GitHub account. Please do not push changes to this repository.
+1. Fork the repository if you have a GitHub account. Please do not push changes to this repository.
 
 2. Clone the repository to your dev environment.
 
@@ -28,7 +28,7 @@ Implement a react application that allows users to manage a list of categorized 
 3. Allow users to filter the list of items displayed by category.
 4. Allow users to sort the list of items by name, category and price.
 
-Please make sure to document your code.
+Note that these requirements are in order of priority. We think the challenge should not take more than four hours to complete so don't spend too much time on it.
 
 ## Avaliable tools
 
@@ -53,3 +53,7 @@ At the top level of the directory structure you can find a file named `NOTES.md`
 * What you liked or didn't like.
 * The challenges you encountered.
 * Anything else you'd like to add.
+
+# Deliverables
+
+You can either provide us with a link to your fork of the repository or you can zip up your local repository and send it to us. If you opt for the latter option please make sure to exclude the `node_modules` directory from your zip file.
