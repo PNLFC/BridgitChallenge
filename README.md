@@ -4,7 +4,7 @@
 
 1. Fork the repository if you have a GitHub account.
 
-2. Clone the repository to your dev environment.
+2. Clone the repository to your dev environment or download it as a zip.
 
 3. Install the required dependencies.
 
@@ -28,7 +28,7 @@ Implement a react application that allows users to manage a list of categorized 
 3. Allow users to filter the list of items displayed by category.
 4. Allow users to sort the list of items by name, category and price.
 
-Note that these requirements are in order of priority. We think the challenge should not take more than four hours to complete so don't spend too much time on it.
+Note that these requirements are in order of priority. We want to be respectful of your time, so we think the challenge should not take more than four hours to complete. If you have something you feel demonstrates your abilities, but doesn't hit every requirement on the list, feel free to submit what you have.
 
 ## Available tools
 
