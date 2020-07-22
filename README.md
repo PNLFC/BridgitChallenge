@@ -1,24 +1,46 @@
-# Bridgit frontend code challenge
+# Bridgit Frontend Code Challenge
+
+*You will need a Github account to complete & submit this challenge*
+
+## Repository Setup
+While you may choose to fork this repository, we recommend the following process to create your own repository that isn't obviously linked.
+
+### Private Repo Setup
+1. Create a new private Github repository for this challenge. Ex: bridgit-challenge
+2. Create a shallow clone of this repository on your machine
+
+```
+git clone  https://github.com/Bridgit/frontend-code-challenge.git --branch main --single-branch bridgit-challenge
+```
+
+3. Change the remote to your new repository
+```
+cd bridgit challenge
+git remote set-url origin https://github.com/YOUR_GITHUB_ACCOUNT/YOUR_REPO.git
+```
+4. Push the code to your private repo
+
+```
+git push -u origin main
+```
+
+5. You're now ready to develop with your private repository. 🎉
+
 
 ## Running the app
-
-1. Fork the repository if you have a GitHub account.
-
-2. Clone the repository to your dev environment or download it as a zip.
-
-3. Install the required dependencies.
+1. Install the required dependencies.
 
 ```
 yarn
 ```
 
-4. Run the application.
+2. Run the application.
 
 ```
 yarn start
 ```
 
-## The challenge
+## The Challenge
 
 Implement a react application that allows users to manage a list of categorized items. The application should have the following features:
 
@@ -28,7 +50,7 @@ Implement a react application that allows users to manage a list of categorized 
 3. Allow users to filter the list of items displayed by category.
 4. Allow users to sort the list of items by name, category and price.
 
-Note that these requirements are in order of priority. We want to be respectful of your time, so we think the challenge should not take more than four hours to complete. If you have something you feel demonstrates your abilities, but doesn't hit every requirement on the list, feel free to submit what you have.
+These requirements are in order of priority. We want to respect your time and we believe the challenge should not take more than four hours to complete. If you have something you feel demonstrates your abilities, but doesn't hit every requirement on the list, please do submit what you have.
 
 ## Available tools
 
@@ -54,6 +76,9 @@ At the top level of the directory structure you can find a file named `NOTES.md`
 * The challenges you encountered.
 * Anything else you'd like to add.
 
-# Deliverables
+# Deliverables & Submitting Your Results
 
-You can either provide us with a link to your fork of the repository or you can zip up your local repository and send it to us. If you opt for the latter option please make sure to exclude the `node_modules` directory from your zip file.
+Please do one of the following:
+1. Grant access to your private repository to the Github account indicated.
+2. Make your repository public and provide the URL.
+3. Don't forget to include your notes!
