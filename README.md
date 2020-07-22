@@ -15,7 +15,7 @@ git clone  https://github.com/Bridgit/frontend-code-challenge.git --branch main 
 
 3. Change the remote to your new repository
 ```
-cd bridgit challenge
+cd bridgit-challenge
 git remote set-url origin https://github.com/YOUR_GITHUB_ACCOUNT/YOUR_REPO.git
 ```
 4. Push the code to your private repo
