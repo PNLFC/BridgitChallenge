@@ -81,4 +81,5 @@ At the top level of the directory structure you can find a file named `NOTES.md`
 Please do one of the following:
 1. Grant access to your private repository to the Github account indicated.
 2. Make your repository public and provide the URL.
-3. Don't forget to include your notes!
+
+Don't forget to include your notes!
