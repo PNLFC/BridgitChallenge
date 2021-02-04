@@ -45,10 +45,11 @@ yarn start
 Implement a react application that allows users to manage a list of categorized items. The application should have the following features:
 
 1. Allow users to create item entries by providing an item name, a category to which the item belongs and a price. Make sure to validate that the value provided for the price is an actual dollar value.
-2. Allow users to view the items in a list.
-3. Allow users to remove items from the list.
-3. Allow users to filter the list of items displayed by category.
-4. Allow users to sort the list of items by name, category and price.
+1. Allow users to view the items in a list.
+1. Allow users to remove items from the list.
+1. Allow users to filter the list of items displayed by category.
+1. Allow users to sort the list of items by name, category and price.
+1. (Sr. Dev Only) Maintain the user’s sorting and filtering selections after refreshing the browser.
 
 These requirements are in order of priority. We want to respect your time and we believe the challenge should not take more than four hours to complete. If you have something you feel demonstrates your abilities, but doesn't hit every requirement on the list, please do submit what you have.
 
