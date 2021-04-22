@@ -56,25 +56,25 @@ export function ItemSelection(){
     return(
         <div className={classes.root}>
             <FormControl className={classes.margin}>
-                <InputLabel htmlFor="standard-adornment-amount">Item</InputLabel>
+                <InputLabel htmlFor="item">Item</InputLabel>
                 <Input
-                    id="standard-adornment-amount"
+                    id="item"
                     value={values.item}
                     onChange={handleChange('item')}
                 />
             </FormControl>
             <FormControl className={clsx(classes.margin, classes.textField)} variant="filled">
-                <InputLabel htmlFor="filled-adornment-password">Category</InputLabel>
+                <InputLabel >Category</InputLabel>
                 <Input
-                    id="standard-adornment-amount"
+                    id="category"
                     value={values.category}
                     onChange={handleChange('category')}
                 />
             </FormControl>
             <FormControl className={classes.margin}>
-                <InputLabel htmlFor="standard-adornment-amount">Price</InputLabel>
+                <InputLabel htmlFor="price">Price</InputLabel>
                 <Input
-                    id="standard-adornment-amount"
+                    id="price"
                     value={values.price}
                     onChange={handleChange('price')}
                     startAdornment={<InputAdornment position="start">$</InputAdornment>}

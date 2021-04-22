@@ -85,10 +85,10 @@ export function ItemList(){
     return(
         <div style={{margin: '20px 50px'}}>
             <FormControl variant="filled" className={classes.formControl}>
-                <InputLabel id="demo-simple-select-filled-label">Show</InputLabel>
+                <InputLabel id="show">Show</InputLabel>
                 <Select
-                    labelId="demo-simple-select-filled-label"
-                    id="demo-simple-select-filled"
+                    labelId="show"
+                    id="show"
                     value={filterCriteria}
                     onChange={handleChange}
                 >
