@@ -1,0 +1,13 @@
+.header{
+    display: grid;  
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+}
+
+.field{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+    background-color:#0076ff;
+    border-radius: 3px;
+    padding: 8px 8px;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import logo from './images/bridgitb-w.svg';
+import { ItemSelection } from './ItemSelection.js'
+import { ItemList } from './ItemList.js'
 
 const App = () => (
   <>
@@ -9,7 +11,8 @@ const App = () => (
       <div className="app-header-title">Bridgit - Frontend code challenge</div>
     </header>
     <section className="app-content">
-      {/* Add your implementation here */}
+      <ItemSelection/>
+      <ItemList/>
     </section>
   </>
 );
