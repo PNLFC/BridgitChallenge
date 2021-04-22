@@ -1,5 +1,4 @@
 import React from 'react';
-import clsx from 'clsx';
 import Button from "@material-ui/core/Button";
 import { makeStyles } from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
@@ -63,7 +62,7 @@ export function ItemSelection(){
                     onChange={handleChange('item')}
                 />
             </FormControl>
-            <FormControl className={clsx(classes.margin, classes.textField)} variant="filled">
+            <FormControl className={classes.margin} variant="filled">
                 <InputLabel >Category</InputLabel>
                 <Input
                     id="category"
